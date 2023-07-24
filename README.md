@@ -1,2 +1,2 @@
-# Colaboradores
+# Integrantes
  repositoryDescription
