@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin:  0;
+	box-sizing:  border-box;
+	font-family:  'Lemonada', cursive;
+}
+
+.contenedor-menu{
+	width:  1000px;
+	height: 650px;
+	background: none;
+	display: flex;
+}
+.pagina-izquierda,.pagina-central,.pagina-derecha{
+	padding: 10px;
+	width: 20%;
+	height: 100%;
+	background: none;
+	margin: 4px;
+	margin-left: 10rem;
+}
+
+.contenedor-lista{
+	width: 100xp;
+	height: 100xp;	
+}
+
+.lista-uno,
+.lista-dos,
+.lista-tres{
+	width: 1000xp;
+	height: 100xp;
+}
