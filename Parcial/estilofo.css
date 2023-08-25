@@ -4,8 +4,7 @@
       }
 
 body {
-      background-color: #9AD1ED;
-      background-image: url(../IMG/meson.png);
+      background-image: url(meson.png);
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover;
@@ -17,7 +16,7 @@ header{
       max-width: 450px;
       height: auto;
       background-color: #EFEFEF;
-      margin: 10% auto;
+      margin: 5% auto;
       padding-bottom: 1rem;
       
 }
