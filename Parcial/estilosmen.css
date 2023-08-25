@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Lemonada', cursive;
+	
 }
 
 header a {
@@ -15,6 +15,7 @@ header a {
 	height: 650px;
 	background: none;
 	display: flex;
+	font-family: 'Lemonada', cursive;
 }
 
 .pagina-izquierda,
