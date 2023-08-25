@@ -28,22 +28,29 @@
 
 nav {
   margin-top: 1rem;
-  height: 4rem;
+  height: 3rem;
   background-color: #17181C;
   text-align: center;
 }
+
 
 nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content:center;
-
+  justify-content: center;
+  background-color: black;
+  
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    background-color: blue;
+  }
 }
 
 nav ul li {
-  float: left;
-  margin-top: 1.25rem;
+  margin: 1rem;
 }
 
 nav ul li a {
