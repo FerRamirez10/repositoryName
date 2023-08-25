@@ -1,7 +1,6 @@
-
-#logo img{
+#logo img {
       width: 40%;
-      }
+}
 
 body {
       background-image: url(meson.png);
@@ -9,16 +8,23 @@ body {
       background-position: top;
       background-size: cover;
 }
-header{
+
+header {
       background-color: white;
 }
+
+header a {
+      text-decoration: none;
+      color: black;
+}
+
 .container {
       max-width: 450px;
       height: auto;
       background-color: #EFEFEF;
       margin: 5% auto;
       padding-bottom: 1rem;
-      
+
 }
 
 .form__top {
@@ -52,7 +58,9 @@ h2 span {
       margin-top: 1rem;
 }
 
-.input, .btn__submit, .btn__reset{
+.input,
+.btn__submit,
+.btn__reset {
       background-color: #EFEFEF;
       padding: .5rem;
       margin: .5rem 0;
@@ -65,7 +73,8 @@ h2 span {
       border-bottom: solid #F39B53 .2rem;
 }
 
-.btn__submit, .btn__reset {
+.btn__submit,
+.btn__reset {
       width: 40%;
       border-bottom: none;
       background-color: #31B1E5;
@@ -80,6 +89,6 @@ h2 span {
       background-color: #4C9ED9;
 }
 
-.btn__reset:hover{
+.btn__reset:hover {
       background-color: #FA9535;
 }
