@@ -9,20 +9,21 @@
 
 #logo {
   margin: auto;
-  height: 250px;
+  height: 9rem;
   width: 320px;
   text-align: center;
 
 }
 
 #logo img {
-  width: 50%;
+  width: 30%;
   margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 #logo h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 58px;
+  font-size: 2rem;
   border: 0;
 }
 
@@ -45,7 +46,7 @@ nav ul {
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
-    background-color: blue;
+    
   }
 }
 
