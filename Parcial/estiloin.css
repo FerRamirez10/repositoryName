@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-
+main .index{
+  background-image: url(unisabana.png);
+ 
+}
 
 
 #logo {
