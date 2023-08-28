@@ -72,8 +72,11 @@
     font-weight: bold;
     height: 50px;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 600px) {
     .product-detail {
       width: 100%;
     }
+      main {
+        margin-top: 12rem;
+      }
   }
