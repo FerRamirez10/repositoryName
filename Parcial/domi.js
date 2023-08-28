@@ -119,7 +119,7 @@ const pintarFooter = () => {
     boton.addEventListener('click', () => {
         carrito = {}
         pintarCarrito()
-    })
+    }
 
 }
 
