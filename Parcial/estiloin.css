@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-main .index{
-  background-image: url(unisabana.png);
- 
-}
+
 
 
 #logo {
@@ -67,4 +64,13 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #737991;
+}
+main{
+  height: 100vh;
+}
+body main {
+  background-image: url(Logo_de_la_Universidad_de_La_Sabana.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 2rem;
 }
