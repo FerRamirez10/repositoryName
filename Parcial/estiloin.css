@@ -68,7 +68,7 @@ nav ul li a:hover {
 main{
   height: 100vh;
 }
-body main {
+#principal {
   background-image: url(Logo_de_la_Universidad_de_La_Sabana.svg);
   background-repeat: no-repeat;
   background-position: top;
