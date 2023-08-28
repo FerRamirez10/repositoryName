@@ -1,0 +1,56 @@
+[
+    {
+      "precio": 12000,
+      "id": 1,
+      "title": "Papitas del Sabor",
+      "thumbnailUrl": "papitas.jpeg"
+    },
+    {
+      "precio": 13000,
+      "id": 2,
+      "title": "Ajiaquito",
+      "thumbnailUrl": "ajiaco.jpeg"
+    },
+    {
+      "precio": 6500,
+      "id": 3,
+      "title": "Extasis de Cafe",
+      "thumbnailUrl": "Tiramizuuuuuuuu.jpeg"
+    },
+    {
+      "precio": 21500,
+      "id": 4,
+      "title": "Bandeja Paisa",
+      "thumbnailUrl": "Paisa.jpeg"
+    },
+    {
+      "precio": 18000,
+      "id": 5,
+      "title": "La Corralita",
+      "thumbnailUrl": "hamburger.jpeg"
+    },
+    {
+      "precio": 5000,
+      "id": 6,
+      "title": "Buena Hierba",
+      "thumbnailUrl": "Yerba.jpeg"
+    },
+    {
+        "precio": 16000,
+        "id": 7,
+        "title": "Fix-Tornillos",
+        "thumbnailUrl": "Tornillos.jpeg"
+    },
+    {
+        "precio": 25000,
+        "id": 8,
+        "title": "Esqueletron",
+        "thumbnailUrl": "Esqueleto.jpeg"
+    },
+    {
+        "precio": 8900,
+        "id": 9,
+        "title": "Aguita de Coco",
+        "thumbnailUrl": "AguitaeCoco.jpeg"
+    }
+  ]
