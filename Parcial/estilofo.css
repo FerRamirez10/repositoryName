@@ -68,13 +68,19 @@ h2 span {
       border-bottom: solid #C8C8C8 .2rem;
       transition: all .5s;
 }
-
+.input{
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
 .input:focus {
       border-bottom: solid #F39B53 .2rem;
+      opacity: 1;
+        transform: translateY(0);
 }
 
 .btn__submit,
 .btn__reset {
+      border-radius: 15rem;
       width: 40%;
       border-bottom: none;
       background-color: #31B1E5;
@@ -86,11 +92,27 @@ h2 span {
 }
 
 .btn__submit:hover {
-      background-color: #4C9ED9;
+      background-color: #;
+      color: black;
+      border: none;
+      padding: 10px 0px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+      background-color: #31B1E5;
+      color: black;
+      font-weight: bold;
 }
 
 .btn__reset:hover {
-      background-color: #FA9535;
+      background-color: #;
+        color: black;
+        border: none;
+        padding: 10px 0px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+        background-color: #FA9535;
+        color: black;
+        font-weight: bold;
 }
 @media (max-width: 600px) {
       main {
