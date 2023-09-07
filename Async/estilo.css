@@ -3,14 +3,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background: url('Fondo.jpeg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .contenedor-popup {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente para el contenedor */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
@@ -67,7 +68,7 @@ img#display {
   right: 0;
   width: 22vw;
   height: 100%;
-  background-color: #f1f1f1;
+  background-color: rgba(241, 241, 241, 0.7); /* Cambia el valor alfa para hacerlo menos transparente */
   overflow-y: auto;
   padding: 0.5rem;
 }
@@ -99,7 +100,4 @@ img#display {
   .info {
       flex-direction: column;
   }
-}
-body {
-  background-image: url('ruta_de_la_imagen.jpg');
 }
