@@ -1,0 +1,27 @@
+
+.popup {
+    display: none;
+    position: initial;
+    bottom: 0;
+    right: 0;
+    width: 22vw;
+    height: 100%;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+    padding: 0.5rem;
+  
+  }
+  
+  .popup-content {
+    padding: 1rem;
+    margin-top: 1rem;
+  background-color: antiquewhite;
+  }
+  
+  .close {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
