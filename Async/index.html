@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <script src="script.js"></script>
-    <link href="estilo.css" rel="stylesheet"/>
+    <link href="estilo.css" rel="stylesheet" />
 </head>
+
 <body>
 
     <div class="contenedor-popup">
 
         <div id="contenedor">
             <button onclick="Buscar()">Aleatorio</button>
-   
-                
-                <div class="info">
-                    <img id="display" src="" alt="">
-                    <div class="texto">
-                        
-                        <label><strong>Id: </strong><span class="detalles" id="idCocktail"></span></label>
-                        <label><strong>Nombre: </strong><span class="detalles" id="nameCocktail"></span></label>
-                        <label><strong>Categoría: </strong><span class="detalles" id="catCocktail"></span></label>
-                        <label><strong>Ingredientes: </strong></label><div  class="detalles"id="ingCocktail"></div>
-                        <label><strong>Preparación: </strong><span class="detalles" id="insCocktail"></span></label>
-                        </div>
-                    </div>
-                    <button id="Favorito" onclick="AbrirFavs()">Agregar</button>
+
+
+            <div class="info">
+                <img id="display" src="" alt="">
+                <div class="texto">
+
+                    <label><strong>Id: </strong> <span class="detalles" id="idCocktail"></span></label>
+                    <label><strong>Nombre: </strong> <span class="detalles" id="nameCocktail"></span></label>
+                    <label><strong>Categoría: </strong> <span class="detalles" id="catCocktail"></span></label>
+                    <label><strong>Ingredientes: </strong></label>
+                    <div class="detalles" id="ingCocktail"></div>
+                    <label><strong>Preparación: </strong> <span class="detalles" id="insCocktail"></span></label>
+
                 </div>
             </div>
-            <div id="popup" class="popup">
-                <div class="popup-content">
-                    <span class="close" onclick="CerrarFavs()">&times;</span>
-                    <h2>Mi lista</h2>
-                    <ul id="myList"></ul>
-                   
-                </div>
-            </div>
-            </div>
-        </body>
-        </html>
+            <button id="Favorito" onclick="AbrirFavs()">Agregar</button>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="CerrarFavs()">&times;</span>
+            <h2>Mi lista</h2>
+            <ul id="myList"></ul>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
