@@ -11,13 +11,14 @@ body {
   max-width: 800px;
   margin: 3rem;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente para el contenedor */
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   display: flex;
+  margin-left: 15%;
+  justify-content: center;
 }
 
-/* Estilos para el botón Aleatorio */
 button {
   background-color: #007bff;
   color: #fff;
@@ -26,13 +27,16 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
+  margin: 0 auto; /* Esto centrará el botón horizontalmente */
+  display: block; /* Asegura que el botón sea tratado como un bloque */
+  margin-bottom: 1rem;
 }
 
 /* Estilos para la información del cóctel */
 .info {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 img#display {
@@ -45,6 +49,11 @@ img#display {
 
 .texto {
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .detalles {
@@ -97,9 +106,14 @@ img#display {
 
   img#display {
       margin-bottom: 10px;
+      margin-top: 10px;
   }
 
   .info {
       flex-direction: column;
   }
+  
+element.style {
+  text-align: center;
+}
 }
