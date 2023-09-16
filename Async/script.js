@@ -18,6 +18,16 @@ function getEndpointWithId() {
 }
 
 */
+setInterval(function() {
+    if (window.localStorage) {
+      if (window.localStorage.getItem(v) !== undefined
+        && window.localStorage.getItem(v)
+      ) {
+        AbrirFavs();
+      }
+    }
+  }, 500);
+
 
 function Mostrar(cocktail) {
     const info = cocktail.drinks[0];
@@ -55,6 +65,7 @@ function Mostrar(cocktail) {
     v = 1;
 
     localStorage.setItem(v , info.idDrink);
+    const  V = localStorage.getItem(v);
   
 }
 
@@ -70,11 +81,11 @@ async function Buscar() {
         alert('Error'+error);
     }
 }
+
 function AbrirFavs() {
+
     var popup = document.getElementById("popup");
     popup.style.display = "block";
-
-    const  V = localStorage.getItem(v);
 
   }
   
