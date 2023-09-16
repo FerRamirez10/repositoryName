@@ -52,8 +52,7 @@ function Mostrar(cocktail) {
     document.getElementById('insCocktail').innerText = info.strInstructions;
     document.getElementById('display').src = info.strDrinkThumb;
 
-    v = 1;
-    v = v++;
+    v = "favorita";
 
     localStorage.setItem(v , info.idDrink);
   
