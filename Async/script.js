@@ -18,6 +18,7 @@ function getEndpointWithId() {
 }
 
 */
+let x;
 
 function Mostrar(cocktail) {
     const info = cocktail.drinks[0];
