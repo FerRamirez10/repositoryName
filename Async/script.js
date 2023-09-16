@@ -27,6 +27,9 @@ function Mostrar(cocktail) {
     console.log(info.strDrink);
     document.getElementById('catCocktail').innerText = info.strCategory;
     console.log(info.strCategory);
+
+    
+
     
     let Ingredientes = [];
     for (let i = 1; i <= 15; i++) {
@@ -48,6 +51,11 @@ function Mostrar(cocktail) {
 
     document.getElementById('insCocktail').innerText = info.strInstructions;
     document.getElementById('display').src = info.strDrinkThumb;
+
+    v = 1;
+    v = v++;
+
+    localStorage.setItem(v , info.idDrink);
   
 }
 
@@ -66,11 +74,16 @@ async function Buscar() {
 function AbrirFavs() {
     var popup = document.getElementById("popup");
     popup.style.display = "block";
+
+    const  V = localStorage.getItem(v);
+
   }
   
   function CerrarFavs() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";
+    localStorage.removeItem(v);
   }
 
+ 
 

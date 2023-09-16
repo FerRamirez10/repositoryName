@@ -6,6 +6,9 @@ const templateCard = document.getElementById('template-card').content
 const templateFooter = document.getElementById('template-footer').content
 const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
+
+let= enviar=document.getElementById("enviar-carrito");
+
 let carrito ={}
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -89,6 +92,7 @@ const pintarCarrito = () => {
 
         const clone = templateCarrito.cloneNode(true)
         fragment.appendChild(clone)
+        console.log(producto)
     })
     items.appendChild(fragment)
     pintarFooter()
@@ -99,7 +103,7 @@ const pintarFooter = () => {
     
     if (Object.keys(carrito).length === 0) {
         footer.innerHTML = `
-        <th scope="row" colspan="5">Carrito vacío con innerHTML</th>
+        <th scope="row" colspan="5">Carrito vacío</th>
         `
         return
     }
@@ -143,3 +147,11 @@ const btnAccion = e => {
     }
     e.stopPropagation()
 }
+
+carrito = function(){
+
+    console.log(JSON.stringify(producto.cantidad))
+
+}
+
+      
