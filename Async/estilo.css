@@ -28,8 +28,10 @@ button {
   cursor: pointer;
   font-size: 16px;
   margin-bottom: 0.5rem;
-  margin: 0 auto; /* Esto centrará el botón horizontalmente */
-  display: block; /* Asegura que el botón sea tratado como un bloque */
+  margin: 0 auto;
+  /* Esto centrará el botón horizontalmente */
+  display: block;
+  /* Asegura que el botón sea tratado como un bloque */
   margin-bottom: 1rem;
 }
 
@@ -43,7 +45,8 @@ img#display {
   max-width: 40%;
   height: auto;
   display: block;
-  margin: 0 auto; /* Esto centrará la imagen horizontalmente */
+  margin: 0 auto;
+  /* Esto centrará la imagen horizontalmente */
 }
 
 
@@ -55,10 +58,6 @@ img#display {
   flex-wrap: wrap;
   margin-top: 1rem;
   margin-left: 1rem;
-}
-
-.detalles {
-  /* font-weight: bold; */
 }
 
 /* Estilos para el botón Agregar */
@@ -81,7 +80,8 @@ img#display {
   right: 0;
   width: 22vw;
   height: 100%;
-  background-color: rgba(241, 241, 241, 0.7); /* Cambia el valor alfa para hacerlo menos transparente */
+  background-color: rgba(241, 241, 241, 0.7);
+  /* Cambia el valor alfa para hacerlo menos transparente */
   overflow-y: auto;
   padding: 0.5rem;
   margin-left: 15%;
@@ -104,19 +104,19 @@ img#display {
 /* Estilos para pantallas más pequeñas */
 @media (max-width: 600px) {
   .contenedor-popup {
-      padding: 10px;
+    padding: 10px;
   }
 
   img#display {
-      margin-bottom: 10px;
-      margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .info {
-      flex-direction: column;
+    flex-direction: column;
   }
-  
-element.style {
-  text-align: center;
-}
+
+  element.style {
+    text-align: center;
+  }
 }
